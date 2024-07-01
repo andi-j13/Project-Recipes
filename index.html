@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mosaic Recipes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <!--Links to navigate between pages will be centered or slightly on left hand side. Recipes will have a dropdown list-->
-    <nav class="navbar">
-        <div class="navdiv">
-            <!--Logo will be in the top left hand corner-->
-            <div class="logo"><a href="#">Mosaic Recipes</a> </div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="recipes.html">Recipes</a>
-                    <ul>
-                        <li><a href="breakfast.html"></a>Breakfast</li>
-                        <li><a href="lunch.html"></a>Lunch</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+    <!--Links for navigating between pages-->
+    <nav>
+        <!--Displays logo in the top left-hand corner-->
+        <div class="logo"><a href="#">Mosaic Recipes</a> </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+                <a href="recipes.html">Recipes</a>
+                <ul class="dropdown">
+                    <li><a href="breakfast.html"></a>Breakfast</li>
+                    <li><a href="lunch.html"></a>Lunch</li>
+                </ul>
+         </li>
+        </ul>
     </nav>
     <img src="./images/pexels-alexy-almond-3756523.jpg" width="100%" alt="Background image of food">
     <p>Centered text over background image</p>
