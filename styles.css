@@ -54,11 +54,14 @@ ul li ul.dropdown {
 }
 
 ul li a:hover {
-    background: #112C66;
+    color: #112C66;
+}
+
+ul li ul.dropdown a:hover {
+    background: #112C66
 }
 
 ul li:hover ul.dropdown {
     display: block;
     color: #fff;
-
 }
