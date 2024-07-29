@@ -3,43 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View healthy, quick, and easy recipes here! From nutritious breakfasts to tasty treats. Share your favourite recipes with us by submitting a 'Share Your Own Recipe' form.">
+    <meta name="keywords" content="recipe, healthy, quick, easy, nutritious, breakfast, lunch, dinner, dessert, snack">
     <title>Mosaic Recipes</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <!--Links to navigate between pages will be centered or slightly on left hand side. Recipes will have a dropdown list-->
+    <!--Links for navigating between pages-->
     <nav>
-        <!--Logo will be in the top left hand corner-->
+        <!--Displays logo in the top left-hand corner-->
         <div class="logo"><a href="#">Mosaic Recipes</a> </div>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li>
-                <a href="recipes.html">Recipes</a>
+            <li >
+                <a href="breakfast.html">Recipes</a>
                 <ul class="dropdown">
                     <li><a href="breakfast.html">Breakfast</a></li>
                     <li><a href="lunch.html">Lunch</a></li>
                 </ul>
-         </li>
+            </li>
         </ul>
     </nav>
+</head>
+<body>
     <div id="title_sec">
         <h2>Breakfast</h2>
         <p>Description here</p>
     </div>
     <div id="link_sec">
-        <div id="recipe_card">
-            <a href="./berry_smoothie.html">
+        <a href="./berry_smoothie.html">
+            <div class="recipe_card">
                 <img src="./images/pexels-pixabay-434295.jpg" alt="Image of a berry smoothie" style="width:300px; height: 200px; object-fit: cover;">
-            </a>
-            <p>Recipe Name</p>
-            <!--Star rating here-->
-        </div>
+                <p>Recipe Name</p>
+                <!--Star rating here-->
+                </div>
+        </a>
     </div>
     <div id="submit_own_sec">
         <h3>Submit Your Own Recipes!</h3>
         <button>Click here</button>
     </div>
-
+    <div id="footer">
+        <div class="logo"><a href="#">Mosaic Recipes</a> </div>
+        
+    </div>
 </body>
 </html>
